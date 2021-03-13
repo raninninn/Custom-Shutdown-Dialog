@@ -1,0 +1,22 @@
+[package]
+name = "rsh_dlg"
+version = "0.1.0"
+authors = ["Raninninn"]
+edition = "2018"
+description = "A GTK3 based shutdown dialog for Linux"
+readme = "README.md"
+repository = "https://github.com/raninninn/rsh_dlg/"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glib = "^0"
+
+[dependencies.gtk]
+version = ""
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
