@@ -1,4 +1,4 @@
-# Rsh_dlg
+# Custom-Shutdown-Dialog
 
 ## Description
 
@@ -13,3 +13,4 @@ Invoke Rsh_dlg by executing `rsh_dlg`.
     cd rsh_dlg
 	cargo build --release
 	cp target/release/rsh_dlg SOME_PLACE_IN_YOUR_PATH
+where `SOME_PLACE_IN_YOUR_PATH` could for example be /usr/bin
